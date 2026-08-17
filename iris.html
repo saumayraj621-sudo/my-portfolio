@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IRIS Case Study — Intelligent Road Inspection System built by Saumay Raj." />
+  <title>IRIS — Case Study | Saumay Raj</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glow Orbs -->
+  <div class="bg-ambient-orb orb-1"></div>
+  <div class="bg-ambient-orb orb-2"></div>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Particle Canvas -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- ───────────────── CASE STUDY HERO ───────────────── -->
+  <header class="case-study-hero">
+    <div class="section-container">
+      <a href="index.html#projects" class="case-study-back">
+        <i class="fas fa-arrow-left"></i> Back to Portfolio
+      </a>
+      
+      <h1 class="case-study-title">IRIS — <span class="gradient-text">Road Vision</span></h1>
+      <div class="case-study-tagline">Intelligent Road Inspection &amp; Anomaly Detection Pipeline</div>
+    </div>
+  </header>
+
+  <!-- ───────────────── CASE STUDY MAIN CONTENT ───────────────── -->
+  <main class="section-container">
+    <div class="case-study-content-grid">
+      
+      <!-- Left Column: Narrative -->
+      <div class="case-study-narrative">
+        
+        <!-- Overview -->
+        <div class="case-study-section-block">
+          <h3><i class="fas fa-circle-info"></i> Project Overview</h3>
+          <p>
+            <strong>IRIS (Intelligent Road Inspection System)</strong> is an applied computer vision project engineered to assist municipal road safety monitoring by automatically identifying road anomalies, cracks, and potholes from dashcam and camera video feeds.
+          </p>
+          <p>
+            Instead of relying solely on periodic manual surveys or delayed citizen complaints, IRIS processes video streams through an image processing pipeline that isolates surface defects and generates actionable maintenance records.
+          </p>
+        </div>
+
+        <!-- Problem Statement -->
+        <div class="case-study-section-block">
+          <h3><i class="fas fa-triangle-exclamation"></i> The Problem</h3>
+          <p>
+            Road deterioration and unmonitored potholes cause millions in vehicle damage and severe transit accidents annually. Traditional road audits are labor-intensive, expensive, and fail to track rapid seasonal pavement degradation in a timely manner.
+          </p>
+        </div>
+
+        <!-- What I Built -->
+        <div class="case-study-section-block">
+          <h3><i class="fas fa-cubes"></i> Architecture &amp; Pipeline</h3>
+          <div class="case-study-feature-list">
+            <div class="case-study-feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>Video Frame Extraction &amp; Preprocessing:</strong> Normalizes video input frames, adjusting contrast and filtering noise for variable lighting conditions.</span>
+            </div>
+            <div class="case-study-feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>Surface Anomaly Detection:</strong> Employs computer vision algorithms and edge/contour analysis to isolate road surface disruptions and depth variances.</span>
+            </div>
+            <div class="case-study-feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>Automated Anomaly Logging:</strong> Records timestamps and bounding-box coordinates for flagged road anomalies to facilitate audit reviews.</span>
+            </div>
+            <div class="case-study-feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>Lightweight Computation:</strong> Optimized Python pipeline tailored to execute on standard computing hardware without requiring massive GPU infrastructure.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technology Stack -->
+        <div class="case-study-section-block">
+          <h3><i class="fas fa-layer-group"></i> Technology Stack</h3>
+          <div class="project-tech-tags">
+            <span class="skill-pill"><i class="fab fa-python"></i> Python 3</span>
+            <span class="skill-pill"><i class="fas fa-eye"></i> OpenCV</span>
+            <span class="skill-pill"><i class="fas fa-chart-line"></i> NumPy</span>
+            <span class="skill-pill"><i class="fas fa-video"></i> Video Stream Processing</span>
+            <span class="skill-pill"><i class="fas fa-shapes"></i> Contour &amp; Edge Analytics</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right Column: Visual Showcase -->
+      <div class="showcase-gallery">
+        
+        <div class="showcase-img-card glass-card">
+          <img src="assets/iris_thumbnail.jpg" alt="IRIS India Road Inspection System Overview" />
+          <div class="showcase-caption">IRIS — India Road Inspection System &amp; Defect Detection</div>
+        </div>
+
+        <div class="showcase-img-card glass-card">
+          <img src="assets/iris_screen_scanner.png" alt="IRIS Road Vision 3D Real-Time Pothole Scanner" />
+          <div class="showcase-caption">IRIS — Road Vision 3D Real-Time Pothole Scanner Interface</div>
+        </div>
+
+        <div class="showcase-img-card glass-card">
+          <img src="assets/iris_hardware_demo.jpg" alt="IRIS Hardware Prototype &amp; Camera Feed Rig" />
+          <div class="showcase-caption">IRIS — Working Hardware Prototype &amp; IP Webcam Detection Rig</div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ───────────────── FOOTER ───────────────── -->
+  <footer class="footer">
+    <div class="section-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="nav-logo-accent">&lt;</span>Saumay Raj<span class="nav-logo-accent">/&gt;</span>
+          </div>
+          <p class="footer-tagline">
+            CSE (AI/ML) Student | Developer | Builder
+          </p>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://github.com/saumayraj621-sudo" target="_blank" class="btn-icon" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/saumayraj1" target="_blank" class="btn-icon" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:saumay621@gmail.com" class="btn-icon" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; <span id="currentYear">2026</span> Saumay Raj. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

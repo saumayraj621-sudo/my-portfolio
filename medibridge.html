@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MediBridge Case Study — Unified Health Referral & Rural Outreach Platform by Saumay Raj." />
+  <title>MediBridge — Case Study | Saumay Raj</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glow Orbs -->
+  <div class="bg-ambient-orb orb-1"></div>
+  <div class="bg-ambient-orb orb-2"></div>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Particle Canvas -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- ───────────────── CASE STUDY HERO ───────────────── -->
+  <header class="case-study-hero">
+    <div class="section-container">
+      <a href="index.html#projects" class="case-study-back">
+        <i class="fas fa-arrow-left"></i> Back to Portfolio
+      </a>
+      
+      <h1 class="case-study-title">Medi<span class="gradient-text">Bridge</span></h1>
+      <div class="case-study-tagline">Unified Health Referral &amp; Rural Outreach Platform</div>
+
+      <div class="case-study-actions">
+        <a href="https://medibridge-greyhats.vercel.app/" target="_blank" class="btn-primary">
+          <i class="fas fa-external-link-alt"></i> View Live Demo
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ───────────────── CASE STUDY MAIN CONTENT ───────────────── -->
+  <main class="section-container">
+    <div class="case-study-content-grid">
+      
+      <!-- Left Column: Narrative -->
+      <div class="case-study-narrative">
+        
+        <!-- Overview -->
+        <div class="case-study-section-block">
+          <h3><i class="fas fa-circle-info"></i> Project Overview</h3>
+          <p>
+            <strong>MediBridge</strong> is a healthcare referral and outreach coordination system created to connect rural Primary Health Centers (PHCs), community health workers, and specialist doctors located at district hospitals.
+          </p>
+          <p>
+            In many rural communities, patients travel long distances to district hospitals without knowing if the required medical specialist is available, leading to lost time, unnecessary travel costs, and delayed critical treatment.
+          </p>
+        </div>
+
+        <!-- Problem Statement -->
+        <div class="case-study-section-block">
+          <h3><i class="fas fa-triangle-exclamation"></i> Healthcare Bottleneck</h3>
+          <p>
+            Lack of centralized referral communication causes severe diagnostic delays. Primary clinics operate in isolation from specialized medical centers, resulting in manual paper trails that frequently get lost or misrouted.
+          </p>
+        </div>
+
+        <!-- What I Built -->
+        <div class="case-study-section-block">
+          <h3><i class="fas fa-cubes"></i> Architecture &amp; Key Features</h3>
+          <div class="case-study-feature-list">
+            <div class="case-study-feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>Multi-Tier Role Portals:</strong> Segmented experiences for rural citizens, local clinic workers, and district doctors to keep tasks clear and accessible.</span>
+            </div>
+            <div class="case-study-feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>Automated Case Routing:</strong> Patient cases recorded at village health posts are automatically directed to the corresponding specialist queue based on preliminary symptoms.</span>
+            </div>
+            <div class="case-study-feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>Referral Status Tracking:</strong> Real-time status indicators let clinics and patients verify if appointments and specialist reviews are confirmed before traveling.</span>
+            </div>
+            <div class="case-study-feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>Low-Bandwidth Optimized:</strong> Lightweight frontend design built to load reliably over slow mobile data connections typical in rural areas.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technology Stack -->
+        <div class="case-study-section-block">
+          <h3><i class="fas fa-layer-group"></i> Technology Stack</h3>
+          <div class="project-tech-tags">
+            <span class="skill-pill"><i class="fab fa-js-square"></i> JavaScript ES6+</span>
+            <span class="skill-pill"><i class="fab fa-html5"></i> Semantic HTML5</span>
+            <span class="skill-pill"><i class="fab fa-css3-alt"></i> CSS3 Modern Layouts</span>
+            <span class="skill-pill"><i class="fas fa-server"></i> REST API Workflows</span>
+            <span class="skill-pill"><i class="fas fa-cloud"></i> Vercel Edge Deployment</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Right Column: Visual Showcase -->
+      <div class="showcase-gallery">
+        
+        <div class="showcase-img-card glass-card">
+          <img src="assets/medibridge_thumbnail.jpg" alt="MediBridge Platform Overview &amp; Mobile Experience" />
+          <div class="showcase-caption">MediBridge — Unified Health Referral Platform &amp; Mobile Portal</div>
+        </div>
+
+        <div class="showcase-img-card glass-card">
+          <img src="assets/medibridge_screen_network.png" alt="MediBridge Live Rural Health Network Map" />
+          <div class="showcase-caption">MediBridge — Live Rural Health Network &amp; Operations Map</div>
+        </div>
+
+        <div class="showcase-img-card glass-card">
+          <img src="assets/medibridge_screen_emergency.png" alt="MediBridge Emergency Assistance Interface" />
+          <div class="showcase-caption">MediBridge — System Triage &amp; Emergency Assistance Portal</div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ───────────────── FOOTER ───────────────── -->
+  <footer class="footer">
+    <div class="section-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="nav-logo-accent">&lt;</span>Saumay Raj<span class="nav-logo-accent">/&gt;</span>
+          </div>
+          <p class="footer-tagline">
+            CSE (AI/ML) Student | Developer | Builder
+          </p>
+        </div>
+
+        <div class="footer-socials">
+          <a href="https://github.com/saumayraj621-sudo" target="_blank" class="btn-icon" title="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/saumayraj1" target="_blank" class="btn-icon" title="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:saumay621@gmail.com" class="btn-icon" title="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; <span id="currentYear">2026</span> Saumay Raj. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

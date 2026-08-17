@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Friday AI Assistant — Project Archive by Saumay Raj." />
+  <title>Friday AI Assistant — Archive | Saumay Raj</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glow Orbs -->
+  <div class="bg-ambient-orb orb-1"></div>
+  <div class="bg-ambient-orb orb-2"></div>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Particle Canvas -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- ───────────────── CASE STUDY HERO ───────────────── -->
+  <header class="case-study-hero">
+    <div class="section-container">
+      <a href="index.html#projects" class="case-study-back">
+        <i class="fas fa-arrow-left"></i> Back to Portfolio
+      </a>
+      
+      <h1 class="case-study-title">Friday — <span class="gradient-text">Virtual Assistant</span></h1>
+      <div class="case-study-tagline">AI-Powered Voice &amp; Automation Tool (Project Archive)</div>
+    </div>
+  </header>
+
+  <!-- ───────────────── CASE STUDY MAIN CONTENT ───────────────── -->
+  <main class="section-container">
+    <div class="case-study-content-grid">
+      
+      <div class="case-study-narrative">
+        <div class="case-study-section-block">
+          <h3><i class="fas fa-circle-info"></i> Project Overview</h3>
+          <p>
+            <strong>Friday</strong> is a desktop assistant concept designed to automate workflow routines, query system utilities, and process natural speech/text inputs.
+          </p>
+        </div>
+
+        <div class="case-study-section-block">
+          <h3><i class="fas fa-cubes"></i> Core Capabilities</h3>
+          <div class="case-study-feature-list">
+            <div class="case-study-feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>Command Processing:</strong> Listens for voice and text commands to trigger automation tasks.</span>
+            </div>
+            <div class="case-study-feature-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>System Utilities:</strong> Controls volume, application launches, and fast system web lookups.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-study-section-block">
+          <h3><i class="fas fa-layer-group"></i> Technology Stack</h3>
+          <div class="project-tech-tags">
+            <span class="skill-pill"><i class="fab fa-python"></i> Python</span>
+            <span class="skill-pill"><i class="fas fa-microphone"></i> Speech Recognition</span>
+            <span class="skill-pill"><i class="fas fa-robot"></i> Text-to-Speech</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="showcase-gallery">
+        <div class="showcase-img-card glass-card" style="padding: 3rem 2rem; text-align: center;">
+          <i class="fas fa-robot" style="font-size: 3.5rem; color: var(--accent-primary); margin-bottom: 1rem;"></i>
+          <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem;">Friday Assistant</h4>
+          <p style="font-size: 0.88rem; color: var(--text-secondary);">Voice and desktop automation concept.</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ───────────────── FOOTER ───────────────── -->
+  <footer class="footer">
+    <div class="section-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="nav-logo-accent">&lt;</span>Saumay Raj<span class="nav-logo-accent">/&gt;</span>
+          </div>
+          <p class="footer-tagline">
+            CSE (AI/ML) Student | Developer | Builder
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; <span id="currentYear">2026</span> Saumay Raj. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
